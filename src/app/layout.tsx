@@ -2,8 +2,6 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Header from './../components/header'
 import Footer from './../components/footer'
-import CookieConsent from './../components/cookie-consent'
-import GoogleTagManager, { GoogleTagManagerNoScript } from './../components/google-tag-manager'
 import {
   openSans,
   lato,
@@ -19,21 +17,24 @@ import {
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ffcworkingsite1.org'),
+  metadataBase: new URL('https://coronadonationalforestheritagesociety.org'),
   title: {
-    default: 'Free For Charity | Reduce Costs, Increase Impact',
-    template: '%s | Free For Charity',
+    default: 'Coronado National Forest Heritage Society | Preserving Heritage',
+    template: '%s | Coronado National Forest Heritage Society',
   },
   description:
-    'Free For Charity connects students, professionals, and businesses with nonprofits to reduce costs and increase revenues—putting more resources back into their missions.',
+    'The Coronado National Forest Heritage Society safeguards the cultural and natural heritage of the Coronado National Forest through preservation, interpretation, and partnership with chapters at Brown Canyon Ranch and Kentucky Camp.',
   keywords: [
-    'nonprofit',
-    'charity',
+    'Coronado National Forest',
+    'heritage society',
+    'Arizona heritage',
+    'Brown Canyon Ranch',
+    'Kentucky Camp',
+    'forest preservation',
     'volunteer',
     'donate',
-    'free hosting',
-    'domains',
-    'Microsoft 365',
+    'nonprofit',
+    'Sierra Vista',
   ],
   robots: {
     index: true,
@@ -51,26 +52,25 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    url: 'https://ffcworkingsite1.org/',
-    siteName: 'Free For Charity',
-    title: 'Free For Charity | Reduce Costs, Increase Impact',
+    url: 'https://coronadonationalforestheritagesociety.org/',
+    siteName: 'Coronado National Forest Heritage Society',
+    title: 'Coronado National Forest Heritage Society | Preserving Heritage',
     description:
-      'Connecting students, professionals, and businesses with nonprofits to reduce costs and increase revenues.',
+      'Safeguarding the cultural and natural heritage of the Coronado National Forest in partnership with the Brown Canyon Ranch and Kentucky Camp chapters.',
     images: [
       {
         url: '/web-app-manifest-512x512.png',
         width: 512,
         height: 512,
-        alt: 'Free For Charity',
+        alt: 'Coronado National Forest Heritage Society',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@freeforcharity',
-    title: 'Free For Charity | Reduce Costs, Increase Impact',
+    title: 'Coronado National Forest Heritage Society',
     description:
-      'Connecting students, professionals, and businesses with nonprofits to reduce costs and increase revenues.',
+      'Preserving heritage and fostering partnerships across the Coronado National Forest in southern Arizona.',
     images: ['/web-app-manifest-512x512.png'],
   },
   icons: {
@@ -91,24 +91,12 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Preconnect to external domains for faster resource loading */}
-        <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="preconnect" href="https://ffcsites.org" />
-        <link rel="preconnect" href="https://www.zeffy.com" />
-        <link rel="preconnect" href="https://widgets.guidestar.org" />
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://ffcsites.org" />
-        <link rel="dns-prefetch" href="https://www.zeffy.com" />
-        <link rel="dns-prefetch" href="https://www.idealist.org" />
-
-        {/* Preload critical LCP image */}
-        <link
-          rel="preload"
-          as="image"
-          href={`${basePath}/Images/figma-hero-img.webp`}
-          fetchPriority="high"
-        />
-
-        <GoogleTagManager />
+        <link rel="preconnect" href="https://browncanyonranch.org" />
+        <link rel="preconnect" href="https://www.kentuckycamp.org" />
+        <link rel="preconnect" href="https://www.guidestar.org" />
+        <link rel="dns-prefetch" href="https://browncanyonranch.org" />
+        <link rel="dns-prefetch" href="https://www.kentuckycamp.org" />
+        <link rel="dns-prefetch" href="https://www.guidestar.org" />
       </head>
       <body
         className={[
@@ -124,14 +112,9 @@ export default function RootLayout({
         ].join(' ')}
         suppressHydrationWarning={true}
       >
-        <GoogleTagManagerNoScript />
-        {/* <PopupProvider> */}
         <Header />
         {children}
         <Footer />
-        <CookieConsent />
-        {/* <PopupsRootClient /> */}
-        {/* </PopupProvider> */}
       </body>
     </html>
   )
