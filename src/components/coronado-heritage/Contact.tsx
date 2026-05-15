@@ -10,10 +10,7 @@ const Contact: React.FC = () => {
     >
       <div className="ffc-container">
         <div className="max-w-[820px] mb-12 md:mb-16">
-          <p
-            className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-primary)] mb-3"
-            id="aria-font"
-          >
+          <p className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-primary)] mb-3 aria-font">
             Get in Touch
           </p>
           <h2
@@ -27,7 +24,7 @@ const Contact: React.FC = () => {
           <li className="rounded-xl bg-paper border border-[var(--ffc-earth)]/15 p-7">
             <Phone className="h-8 w-8 text-[var(--ffc-primary)] mb-4" aria-hidden="true" />
             <h3 className="text-[20px] font-semibold text-[var(--ffc-earth)] mb-2">By Phone</h3>
-            <p className="text-[16px] text-[var(--ffc-black)]/75 mb-3" id="aria-font">
+            <p className="text-[16px] text-[var(--ffc-black)]/75 mb-3 aria-font">
               Sierra Vista Ranger District line.
             </p>
             <a
@@ -40,7 +37,7 @@ const Contact: React.FC = () => {
           <li className="rounded-xl bg-paper border border-[var(--ffc-earth)]/15 p-7">
             <Mail className="h-8 w-8 text-[var(--ffc-primary)] mb-4" aria-hidden="true" />
             <h3 className="text-[20px] font-semibold text-[var(--ffc-earth)] mb-2">By Email</h3>
-            <p className="text-[16px] text-[var(--ffc-black)]/75 mb-3" id="aria-font">
+            <p className="text-[16px] text-[var(--ffc-black)]/75 mb-3 aria-font">
               Send us a note and we&apos;ll route it to the right coordinator.
             </p>
             <a
@@ -53,7 +50,7 @@ const Contact: React.FC = () => {
           <li className="rounded-xl bg-paper border border-[var(--ffc-earth)]/15 p-7">
             <MapPin className="h-8 w-8 text-[var(--ffc-primary)] mb-4" aria-hidden="true" />
             <h3 className="text-[20px] font-semibold text-[var(--ffc-earth)] mb-2">Where We Are</h3>
-            <p className="text-[16px] text-[var(--ffc-black)]/75" id="aria-font">
+            <p className="text-[16px] text-[var(--ffc-black)]/75 aria-font">
               Coronado National Forest
               <br />
               Sierra Vista Ranger District

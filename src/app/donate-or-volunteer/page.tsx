@@ -43,16 +43,13 @@ export default function DonateOrVolunteerPage() {
     <main className="pt-[120px] md:pt-[140px] pb-20 bg-paper">
       <section className="ffc-container">
         <header className="max-w-[820px] mb-12">
-          <p
-            className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-primary)] mb-3"
-            id="aria-font"
-          >
+          <p className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-primary)] mb-3 aria-font">
             Donate or Volunteer
           </p>
           <h1 className="text-[36px] md:text-[48px] leading-[1.1] font-semibold text-[var(--ffc-earth)] mb-5">
             Three ways to support heritage in southern Arizona.
           </h1>
-          <p className="text-[18px] leading-[1.7] text-[var(--ffc-black)]/85" id="aria-font">
+          <p className="text-[18px] leading-[1.7] text-[var(--ffc-black)]/85 aria-font">
             Donations, memberships, and volunteer signups for the Coronado National Forest Heritage
             Society are handled directly by our two chapters. Choose the site that calls to you, or
             give to both.
@@ -65,19 +62,13 @@ export default function DonateOrVolunteerPage() {
               key={chapter.name}
               className="flex flex-col rounded-xl border border-[var(--ffc-earth)]/15 bg-[var(--ffc-sand)]/40 p-7 md:p-8"
             >
-              <p
-                className="text-[12px] uppercase tracking-[0.22em] font-semibold text-[var(--ffc-primary)] mb-3"
-                id="aria-font"
-              >
+              <p className="text-[12px] uppercase tracking-[0.22em] font-semibold text-[var(--ffc-primary)] mb-3 aria-font">
                 {chapter.location}
               </p>
               <h2 className="text-[24px] md:text-[26px] font-semibold text-[var(--ffc-earth)] mb-3">
                 {chapter.name}
               </h2>
-              <p
-                className="text-[16px] md:text-[17px] leading-[1.65] text-[var(--ffc-black)]/80 mb-6"
-                id="aria-font"
-              >
+              <p className="text-[16px] md:text-[17px] leading-[1.65] text-[var(--ffc-black)]/80 mb-6 aria-font">
                 {chapter.description}
               </p>
               <div className="mt-auto flex flex-col gap-3">
@@ -114,10 +105,7 @@ export default function DonateOrVolunteerPage() {
           >
             Want to talk to a person first?
           </h2>
-          <p
-            className="text-[17px] leading-[1.7] text-[var(--ffc-black)]/85 mb-6 max-w-[640px]"
-            id="aria-font"
-          >
+          <p className="text-[17px] leading-[1.7] text-[var(--ffc-black)]/85 mb-6 max-w-[640px] aria-font">
             Reach out and we&apos;ll connect you with the right chapter coordinator. We typically
             respond within a few business days.
           </p>
@@ -146,12 +134,12 @@ export default function DonateOrVolunteerPage() {
               <ArrowUpRight className="h-5 w-5" aria-hidden="true" />
             </a>
           </div>
-          <p className="mt-6 text-[14px] text-[var(--ffc-black)]/60" id="aria-font">
+          <p className="mt-6 text-[14px] text-[var(--ffc-black)]/60 aria-font">
             EIN: 86-0802156 · Coronado National Forest Heritage Society is a 501(c)(3) nonprofit.
           </p>
         </section>
 
-        <p className="mt-12 text-[15px]" id="aria-font">
+        <p className="mt-12 text-[15px] aria-font">
           <Link
             href="/"
             className="text-[var(--ffc-primary)] hover:text-[var(--ffc-earth)] underline underline-offset-4"
