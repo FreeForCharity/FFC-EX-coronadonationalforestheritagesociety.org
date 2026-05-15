@@ -15,10 +15,7 @@ const DonateCTA: React.FC = () => {
       <div className="ffc-container py-20 md:py-24">
         <div className="grid gap-10 md:gap-16 md:grid-cols-12 items-center">
           <div className="md:col-span-7">
-            <p
-              className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-yellow)] mb-3"
-              id="aria-font"
-            >
+            <p className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-yellow)] mb-3 aria-font">
               Support Heritage
             </p>
             <h2
@@ -27,10 +24,7 @@ const DonateCTA: React.FC = () => {
             >
               Your gift keeps these places open to the public.
             </h2>
-            <p
-              className="text-[17px] md:text-[18px] leading-[1.7] text-[#f5efe3]/95 max-w-[640px]"
-              id="aria-font"
-            >
+            <p className="text-[17px] md:text-[18px] leading-[1.7] text-[#f5efe3]/95 max-w-[640px] aria-font">
               Donations are received and managed by each chapter, which is the most direct way to
               fund preservation work on the ground. Pick the place that moves you most—or give to
               both.

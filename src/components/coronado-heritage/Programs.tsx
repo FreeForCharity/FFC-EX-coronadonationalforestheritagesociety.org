@@ -33,10 +33,7 @@ const Programs: React.FC = () => {
     <section id="programs" aria-labelledby="programs-heading" className="bg-paper py-20 md:py-28">
       <div className="ffc-container">
         <div className="max-w-[760px] mb-12 md:mb-16">
-          <p
-            className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-primary)] mb-3"
-            id="aria-font"
-          >
+          <p className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-primary)] mb-3 aria-font">
             What We Do
           </p>
           <h2
@@ -55,7 +52,7 @@ const Programs: React.FC = () => {
               <h3 className="text-[20px] md:text-[22px] font-semibold text-[var(--ffc-primary)] mb-3">
                 {program.title}
               </h3>
-              <p className="text-[16px] leading-[1.6] text-[var(--ffc-black)]/80" id="aria-font">
+              <p className="text-[16px] leading-[1.6] text-[var(--ffc-black)]/80 aria-font">
                 {program.description}
               </p>
             </li>

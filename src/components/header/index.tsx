@@ -65,10 +65,9 @@ const Header: React.FC = () => {
                   Coronado National Forest
                 </span>
                 <span
-                  className={`block uppercase tracking-[0.18em] text-[var(--ffc-accent)] transition-all duration-300 ${
+                  className={`block uppercase tracking-[0.18em] text-[var(--ffc-accent)] transition-all duration-300 aria-font ${
                     isScrolled ? 'text-[10px]' : 'text-[11px] md:text-[12px]'
                   }`}
-                  id="aria-font"
                 >
                   Heritage Society
                 </span>

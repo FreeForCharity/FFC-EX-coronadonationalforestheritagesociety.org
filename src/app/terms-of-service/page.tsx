@@ -9,20 +9,14 @@ export const metadata: Metadata = {
 export default function TermsOfService() {
   return (
     <main className="pt-[120px] md:pt-[140px] pb-20 bg-paper">
-      <article className="ffc-container max-w-[820px]">
-        <p
-          className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-primary)] mb-3"
-          id="aria-font"
-        >
+      <article className="mx-auto max-w-3xl px-4">
+        <p className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-primary)] mb-3 aria-font">
           Policies
         </p>
         <h1 className="text-[36px] md:text-[44px] font-semibold text-[var(--ffc-earth)] mb-6">
           Terms of Service
         </h1>
-        <div
-          className="space-y-5 text-[17px] leading-[1.7] text-[var(--ffc-black)]/85"
-          id="aria-font"
-        >
+        <div className="space-y-5 text-[17px] leading-[1.7] text-[var(--ffc-black)]/85 aria-font">
           <p>
             By using coronadonationalforestheritagesociety.org you agree to these basic terms. The
             site provides information about the Coronado National Forest Heritage Society, a
@@ -58,7 +52,7 @@ export default function TermsOfService() {
             .
           </p>
         </div>
-        <p className="mt-12 text-[15px]" id="aria-font">
+        <p className="mt-12 text-[15px] aria-font">
           <Link
             href="/"
             className="text-[var(--ffc-primary)] hover:text-[var(--ffc-earth)] underline underline-offset-4"

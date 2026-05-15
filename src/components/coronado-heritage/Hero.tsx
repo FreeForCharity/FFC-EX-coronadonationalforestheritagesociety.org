@@ -71,10 +71,7 @@ const Hero: React.FC = () => {
 
       <div className="ffc-container relative pt-[160px] pb-[100px] md:pt-[200px] md:pb-[140px]">
         <div className="max-w-[820px] text-paper">
-          <p
-            className="uppercase tracking-[0.28em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-yellow)] mb-5"
-            id="aria-font"
-          >
+          <p className="uppercase tracking-[0.28em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-yellow)] mb-5 aria-font">
             Coronado National Forest Heritage Society
           </p>
           <h1
@@ -85,10 +82,7 @@ const Hero: React.FC = () => {
             <br />
             Fostering Partnerships.
           </h1>
-          <p
-            className="text-[18px] md:text-[20px] leading-[1.6] max-w-[680px] mb-9 text-[#f5efe3]"
-            id="aria-font"
-          >
+          <p className="text-[18px] md:text-[20px] leading-[1.6] max-w-[680px] mb-9 text-[#f5efe3] aria-font">
             We safeguard the cultural and natural heritage of the Coronado National Forest through
             preservation, interpretation, and collaboration with two partner chapters in southern
             Arizona.

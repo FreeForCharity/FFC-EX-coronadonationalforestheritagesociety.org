@@ -10,10 +10,7 @@ const Mission: React.FC = () => {
       <div className="ffc-container">
         <div className="grid gap-10 md:gap-16 md:grid-cols-12 items-start">
           <div className="md:col-span-5">
-            <p
-              className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-primary)] mb-3"
-              id="aria-font"
-            >
+            <p className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-primary)] mb-3 aria-font">
               Our Mission
             </p>
             <h2
@@ -37,19 +34,13 @@ const Mission: React.FC = () => {
             </p>
             <dl className="grid grid-cols-2 gap-6 pt-4">
               <div>
-                <dt
-                  className="text-[12px] uppercase tracking-[0.18em] text-[var(--ffc-primary)] font-semibold"
-                  id="aria-font"
-                >
+                <dt className="text-[12px] uppercase tracking-[0.18em] text-[var(--ffc-primary)] font-semibold aria-font">
                   EIN
                 </dt>
                 <dd className="text-[18px] font-medium text-[var(--ffc-earth)]">86-0802156</dd>
               </div>
               <div>
-                <dt
-                  className="text-[12px] uppercase tracking-[0.18em] text-[var(--ffc-primary)] font-semibold"
-                  id="aria-font"
-                >
+                <dt className="text-[12px] uppercase tracking-[0.18em] text-[var(--ffc-primary)] font-semibold aria-font">
                   Tax Status
                 </dt>
                 <dd className="text-[18px] font-medium text-[var(--ffc-earth)]">501(c)(3)</dd>
