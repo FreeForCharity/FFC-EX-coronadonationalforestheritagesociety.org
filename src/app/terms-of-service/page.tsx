@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function TermsOfService() {
   return (
     <main className="pt-[120px] md:pt-[140px] pb-20 bg-paper">
-      <article className="ffc-container max-w-[820px]">
+      <article className="mx-auto max-w-3xl px-4">
         <p
           className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-primary)] mb-3"
           id="aria-font"
