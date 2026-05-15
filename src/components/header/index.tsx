@@ -65,10 +65,9 @@ const Header: React.FC = () => {
                   Coronado National Forest
                 </span>
                 <span
-                  className={`block uppercase tracking-[0.18em] text-[var(--ffc-accent)] transition-all duration-300 ${
+                  className={`block uppercase tracking-[0.18em] text-[var(--ffc-accent)] transition-all duration-300 aria-font ${
                     isScrolled ? 'text-[10px]' : 'text-[11px] md:text-[12px]'
                   }`}
-                  id="aria-font"
                 >
                   Heritage Society
                 </span>
@@ -83,7 +82,7 @@ const Header: React.FC = () => {
                       <Link
                         href={item.path}
                         onClick={handleLinkClick}
-                        className="flex items-center px-3 py-2 text-[14px] text-[var(--ffc-earth)] hover:text-[var(--ffc-primary)] transition-colors duration-200"
+                        className="flex items-center px-3 py-2 text-[14px] text-[var(--ffc-earth)] hover:text-[var(--ffc-primary)] transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--ffc-primary)] rounded"
                       >
                         {item.label}
                       </Link>
@@ -93,7 +92,7 @@ const Header: React.FC = () => {
                     <Link
                       href="/donate-or-volunteer"
                       onClick={handleLinkClick}
-                      className="ml-3 inline-flex items-center rounded-md bg-[var(--ffc-primary)] px-4 py-2 text-[14px] font-semibold text-paper hover:bg-[var(--ffc-earth)] transition-colors"
+                      className="ml-3 inline-flex items-center rounded-md bg-[var(--ffc-primary)] px-4 py-2 text-[14px] font-semibold text-paper hover:bg-[var(--ffc-earth)] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--ffc-primary)]"
                     >
                       Donate / Volunteer
                     </Link>
@@ -104,7 +103,7 @@ const Header: React.FC = () => {
               <button
                 type="button"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="lg:hidden p-2 text-[var(--ffc-earth)] hover:text-[var(--ffc-primary)]"
+                className="lg:hidden p-2 text-[var(--ffc-earth)] hover:text-[var(--ffc-primary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--ffc-primary)] rounded"
                 aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
               >
                 {isMobileMenuOpen ? (
@@ -136,7 +135,7 @@ const Header: React.FC = () => {
                     <Link
                       href={item.path}
                       onClick={handleLinkClick}
-                      className="block px-4 py-2 rounded-lg text-sm font-semibold text-[var(--ffc-earth)] hover:bg-[var(--ffc-sand)]"
+                      className="block px-4 py-2 rounded-lg text-sm font-semibold text-[var(--ffc-earth)] hover:bg-[var(--ffc-sand)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--ffc-primary)]"
                     >
                       {item.label}
                     </Link>
@@ -146,7 +145,7 @@ const Header: React.FC = () => {
                   <Link
                     href="/donate-or-volunteer"
                     onClick={handleLinkClick}
-                    className="block px-4 py-2 rounded-lg text-sm font-semibold bg-[var(--ffc-primary)] text-paper hover:bg-[var(--ffc-earth)]"
+                    className="block px-4 py-2 rounded-lg text-sm font-semibold bg-[var(--ffc-primary)] text-paper hover:bg-[var(--ffc-earth)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--ffc-primary)]"
                   >
                     Donate / Volunteer
                   </Link>
