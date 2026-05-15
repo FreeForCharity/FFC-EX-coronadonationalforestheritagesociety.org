@@ -43,10 +43,7 @@ const Chapters: React.FC = () => {
     >
       <div className="ffc-container">
         <div className="max-w-[820px] mb-12 md:mb-16">
-          <p
-            className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-yellow)] mb-3"
-            id="aria-font"
-          >
+          <p className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-yellow)] mb-3 aria-font">
             Our Chapters
           </p>
           <h2
@@ -55,10 +52,7 @@ const Chapters: React.FC = () => {
           >
             Two volunteer-led chapters, one mission.
           </h2>
-          <p
-            className="mt-5 text-[17px] md:text-[18px] leading-[1.7] text-[#f5efe3]/90"
-            id="aria-font"
-          >
+          <p className="mt-5 text-[17px] md:text-[18px] leading-[1.7] text-[#f5efe3]/90 aria-font">
             Membership, donations, and volunteering for the Heritage Society are coordinated through
             the two chapters below. Each chapter operates its own site and welcomes new supporters.
           </p>
@@ -76,19 +70,15 @@ const Chapters: React.FC = () => {
                 style={{ backgroundColor: chapter.accent }}
               />
               <p
-                className="text-[12px] uppercase tracking-[0.22em] font-semibold mb-3"
+                className="text-[12px] uppercase tracking-[0.22em] font-semibold mb-3 aria-font"
                 style={{ color: chapter.accent }}
-                id="aria-font"
               >
                 {chapter.location}
               </p>
               <h3 className="text-[24px] md:text-[26px] font-semibold mb-3 text-[var(--ffc-earth)]">
                 {chapter.name}
               </h3>
-              <p
-                className="text-[16px] md:text-[17px] leading-[1.65] text-[var(--ffc-black)]/80 mb-6"
-                id="aria-font"
-              >
+              <p className="text-[16px] md:text-[17px] leading-[1.65] text-[var(--ffc-black)]/80 mb-6 aria-font">
                 {chapter.blurb}
               </p>
               <div className="mt-auto flex flex-col gap-3">

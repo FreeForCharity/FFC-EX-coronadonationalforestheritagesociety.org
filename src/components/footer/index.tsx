@@ -23,10 +23,10 @@ const Footer: React.FC = () => {
             GuideStar Profile
             <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
           </a>
-          <p className="text-[16px]" id="aria-font">
+          <p className="text-[16px] aria-font">
             EIN: <span className="font-semibold">86-0802156</span>
           </p>
-          <p className="text-[14px] text-paper/70" id="aria-font">
+          <p className="text-[14px] text-paper/70 aria-font">
             Coronado National Forest Heritage Society is a 501(c)(3) nonprofit organization.
           </p>
         </div>
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
         {/* Column 2: Quick Links */}
         <div className="space-y-5 px-2 sm:px-0">
           <h3 className="text-[24px] font-semibold">Quick Links</h3>
-          <ul className="space-y-2" id="aria-font">
+          <ul className="space-y-2 aria-font">
             {[
               { name: 'Home', href: '/#hero' },
               { name: 'Mission', href: '/#mission' },
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
           </ul>
 
           <h4 className="pt-2 text-[20px] font-semibold">Policies</h4>
-          <ul className="space-y-1" id="aria-font">
+          <ul className="space-y-1 aria-font">
             {[
               { name: 'Privacy Policy', href: '/privacy-policy' },
               { name: 'Terms of Service', href: '/terms-of-service' },
@@ -87,8 +87,7 @@ const Footer: React.FC = () => {
                 <p className="font-semibold text-[18px]">Phone</p>
                 <a
                   href="tel:5203780311"
-                  className="text-[15px] hover:text-[var(--ffc-yellow)] transition-colors"
-                  id="aria-font"
+                  className="text-[15px] hover:text-[var(--ffc-yellow)] transition-colors aria-font"
                 >
                   (520) 378-0311
                 </a>
@@ -104,8 +103,7 @@ const Footer: React.FC = () => {
                 <p className="font-semibold text-[18px]">Email</p>
                 <a
                   href="mailto:info@coronadonationalforestheritagesociety.org"
-                  className="text-[14px] hover:text-[var(--ffc-yellow)] transition-colors break-all"
-                  id="aria-font"
+                  className="text-[14px] hover:text-[var(--ffc-yellow)] transition-colors break-all aria-font"
                 >
                   info@coronadonationalforestheritagesociety.org
                 </a>
@@ -119,7 +117,7 @@ const Footer: React.FC = () => {
               />
               <div>
                 <p className="font-semibold text-[18px]">Location</p>
-                <p className="text-[15px]" id="aria-font">
+                <p className="text-[15px] aria-font">
                   Coronado National Forest
                   <br />
                   Sierra Vista Ranger District
@@ -131,7 +129,7 @@ const Footer: React.FC = () => {
 
             <div className="pt-3 space-y-2">
               <p className="text-[16px] font-semibold">Chapters</p>
-              <ul className="space-y-1" id="aria-font">
+              <ul className="space-y-1 aria-font">
                 <li>
                   <a
                     href="https://browncanyonranch.org"
@@ -158,10 +156,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      <div
-        className="py-6 px-4 border-t border-paper/15 text-center text-[15px] w-full"
-        id="aria-font"
-      >
+      <div className="py-6 px-4 border-t border-paper/15 text-center text-[15px] w-full aria-font">
         <p>
           &copy; {currentYear} Coronado National Forest Heritage Society. All rights reserved. Site
           hosted by{' '}
