@@ -7,10 +7,7 @@ const Volunteer: React.FC = () => {
       <div className="ffc-container">
         <div className="grid gap-10 md:gap-16 md:grid-cols-12 items-center">
           <div className="md:col-span-7">
-            <p
-              className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-primary)] mb-3"
-              id="aria-font"
-            >
+            <p className="uppercase tracking-[0.24em] text-[12px] md:text-[13px] font-semibold text-[var(--ffc-primary)] mb-3 aria-font">
               Volunteer With Us
             </p>
             <h2
@@ -19,10 +16,7 @@ const Volunteer: React.FC = () => {
             >
               Help preserve the places that tell Arizona&apos;s story.
             </h2>
-            <p
-              className="text-[17px] md:text-[18px] leading-[1.7] text-[var(--ffc-black)]/80 mb-6"
-              id="aria-font"
-            >
+            <p className="text-[17px] md:text-[18px] leading-[1.7] text-[var(--ffc-black)]/80 mb-6 aria-font">
               Volunteers are the backbone of our chapters. Whether you&apos;d like to help on a
               workday, host visitors, or contribute professional skills, sign up directly through
               the chapter closest to the work you want to do.
@@ -55,10 +49,7 @@ const Volunteer: React.FC = () => {
             <h3 className="text-[20px] font-semibold text-[var(--ffc-primary)] mb-3">
               Prefer to talk first?
             </h3>
-            <p
-              className="text-[16px] leading-[1.65] text-[var(--ffc-black)]/80 mb-5"
-              id="aria-font"
-            >
+            <p className="text-[16px] leading-[1.65] text-[var(--ffc-black)]/80 mb-5 aria-font">
               Reach the Sierra Vista Ranger District or send a note through our contact page and
               we&apos;ll connect you with the right chapter coordinator.
             </p>
