@@ -2,7 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Page Not Found · Coronado National Forest Heritage Society',
+  title: 'Page Not Found',
   robots: { index: false, follow: false },
 }
 
