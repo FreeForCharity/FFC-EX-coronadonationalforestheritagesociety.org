@@ -59,9 +59,9 @@ export const metadata: Metadata = {
       'Safeguarding the cultural and natural heritage of the Coronado National Forest in partnership with the Brown Canyon Ranch and Kentucky Camp chapters.',
     images: [
       {
-        url: '/web-app-manifest-512x512.png',
-        width: 512,
-        height: 512,
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
         alt: 'Coronado National Forest Heritage Society',
       },
     ],
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     title: 'Coronado National Forest Heritage Society',
     description:
       'Preserving heritage and fostering partnerships across the Coronado National Forest in southern Arizona.',
-    images: ['/web-app-manifest-512x512.png'],
+    images: ['/og-image.png'],
   },
   icons: {
     icon: [
