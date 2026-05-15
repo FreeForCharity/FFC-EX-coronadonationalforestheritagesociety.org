@@ -12,6 +12,63 @@ const Hero: React.FC = () => {
           'linear-gradient(180deg, rgba(28,26,23,0.55) 0%, rgba(28,26,23,0.65) 60%, rgba(28,26,23,0.85) 100%), linear-gradient(135deg, #2f5d50 0%, #355c7d 60%, #5c4632 100%)',
       }}
     >
+      {/* Subtle topographic contour overlay — evokes canyon terrain */}
+      <svg
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 h-full w-full opacity-[0.07]"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="xMidYMid slice"
+      >
+        <defs>
+          <pattern
+            id="cnfhs-topo"
+            x="0"
+            y="0"
+            width="120"
+            height="120"
+            patternUnits="userSpaceOnUse"
+          >
+            <ellipse
+              cx="60"
+              cy="60"
+              rx="55"
+              ry="40"
+              fill="none"
+              stroke="#e8dcc8"
+              strokeWidth="0.6"
+            />
+            <ellipse
+              cx="60"
+              cy="60"
+              rx="40"
+              ry="28"
+              fill="none"
+              stroke="#e8dcc8"
+              strokeWidth="0.6"
+            />
+            <ellipse
+              cx="60"
+              cy="60"
+              rx="25"
+              ry="16"
+              fill="none"
+              stroke="#e8dcc8"
+              strokeWidth="0.6"
+            />
+            <ellipse
+              cx="60"
+              cy="60"
+              rx="12"
+              ry="7"
+              fill="none"
+              stroke="#e8dcc8"
+              strokeWidth="0.6"
+            />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#cnfhs-topo)" />
+      </svg>
+
       <div className="ffc-container relative pt-[160px] pb-[100px] md:pt-[200px] md:pb-[140px]">
         <div className="max-w-[820px] text-paper">
           <p
