@@ -9,7 +9,7 @@ import Contact from '@/components/coronado-heritage/Contact'
 
 const HomePage: React.FC = () => {
   return (
-    <main>
+    <main id="main">
       <Hero />
       <Mission />
       <Programs />
