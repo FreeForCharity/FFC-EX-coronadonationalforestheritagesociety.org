@@ -2,9 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import Header from './../components/header'
 import Footer from './../components/footer'
-import GoogleTagManager, {
-  GoogleTagManagerNoScript,
-} from './../components/google-tag-manager'
+import GoogleTagManager, { GoogleTagManagerNoScript } from './../components/google-tag-manager'
 import {
   openSans,
   lato,
