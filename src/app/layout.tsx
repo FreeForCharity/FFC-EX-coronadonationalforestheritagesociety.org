@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import Header from './../components/header'
 import Footer from './../components/footer'
+import GoogleTagManager, { GoogleTagManagerNoScript } from './../components/google-tag-manager'
 import {
   openSans,
   lato,
@@ -94,6 +95,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <GoogleTagManager />
         {/* Preconnect to external domains for faster resource loading */}
         <link rel="preconnect" href="https://browncanyonranch.org" />
         <link rel="preconnect" href="https://www.kentuckycamp.org" />
@@ -116,6 +118,7 @@ export default function RootLayout({
         ].join(' ')}
         suppressHydrationWarning={true}
       >
+        <GoogleTagManagerNoScript />
         <a
           href="#main"
           className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:text-black focus:shadow-lg"
