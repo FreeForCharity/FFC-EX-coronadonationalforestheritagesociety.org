@@ -40,9 +40,11 @@ export default function CookiePolicy() {
               consent because the site cannot function without them.
             </li>
             <li>
-              <strong>Analytics (consent-based).</strong> We use Google Tag Manager and Google
-              Analytics 4 to understand aggregate site usage. Analytics cookies (for example,{' '}
-              <code>_ga</code>) are set only after you consent through our cookie banner.
+              <strong>Analytics (on by default).</strong> We use Google Tag Manager and Google
+              Analytics 4 to understand aggregate site usage. Analytics runs by default, and Google
+              Analytics 4 sets a first-party cookie (for example, <code>_ga</code>) when you visit.
+              You can opt out at any time using our cookie banner &mdash; declining stops analytics
+              on this browser and deletes those cookies.
             </li>
             <li>
               <strong>Third-party.</strong> Some pages link out to our partner chapters (Friends of
@@ -54,10 +56,11 @@ export default function CookiePolicy() {
             Managing your choices
           </h2>
           <p>
-            When you first visit, our cookie-consent banner lets you accept, decline, or customize
-            non-essential cookies. Declining removes analytics cookies such as <code>_ga</code>. To
-            change your choice later, clear this site&apos;s cookies and stored data in your browser
-            settings — the consent banner will appear again on your next visit so you can choose
+            Analytics runs by default so we can measure aggregate usage, but you are always free to
+            opt out. Our cookie-consent banner lets you decline (or customize) non-essential
+            cookies: declining stops analytics on this browser and removes analytics cookies such as{' '}
+            <code>_ga</code>. You can also clear this site&apos;s cookies and stored data in your
+            browser settings, which brings the banner back on your next visit so you can choose
             differently.
           </p>
           <h2 className="text-[22px] font-semibold text-[var(--ffc-earth)] pt-2">Contact</h2>

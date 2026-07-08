@@ -36,10 +36,11 @@ export default function PrivacyPolicy() {
           <p>
             We use Google Tag Manager and Google Analytics 4 to understand aggregate site usage,
             such as which pages are visited and general traffic trends. This helps us improve the
-            site. Analytics cookies (for example, <code>_ga</code>) are set{' '}
-            <strong>only after you consent</strong> through the cookie banner shown on your first
-            visit. If you decline, or later clear this site&apos;s stored data, those cookies are
-            removed and no analytics cookies are set. For details on the cookies we use and how to
+            site. Analytics runs by default: Google Analytics 4 sets a first-party cookie (for
+            example, <code>_ga</code>) when you visit. You can <strong>decline</strong> at any time
+            using the cookie banner &mdash; declining stops analytics on this browser and deletes
+            those cookies. If you later clear this site&apos;s stored data, the banner returns on
+            your next visit so you can choose again. For details on the cookies we use and how to
             change your choice, see our{' '}
             <Link
               href="/cookie-policy"
