@@ -26,9 +26,29 @@ export default function PrivacyPolicy() {
             Information we collect
           </h2>
           <p>
-            This site is a static informational website. We do not run forms, accounts, or analytics
-            cookies that personally identify visitors. Standard server logs may record IP address,
-            browser type, and pages visited for security and performance.
+            This site is a static informational website. We do not run forms or accounts. Standard
+            server logs may record IP address, browser type, and pages visited for security and
+            performance.
+          </p>
+          <h2 className="text-[22px] font-semibold text-[var(--ffc-earth)] pt-2">
+            Analytics and cookies
+          </h2>
+          <p>
+            We use Google Tag Manager and Google Analytics 4 to understand aggregate site usage,
+            such as which pages are visited and general traffic trends. This helps us improve the
+            site. Analytics runs by default: Google Analytics 4 sets a first-party cookie (for
+            example, <code>_ga</code>) when you visit. You can <strong>decline</strong> at any time
+            using the cookie banner &mdash; declining stops analytics on this browser and deletes
+            those cookies. If you later clear this site&apos;s stored data, the banner returns on
+            your next visit so you can choose again. For details on the cookies we use and how to
+            change your choice, see our{' '}
+            <Link
+              href="/cookie-policy"
+              className="text-[var(--ffc-primary)] underline underline-offset-4 hover:text-[var(--ffc-earth)]"
+            >
+              Cookie Policy
+            </Link>
+            .
           </p>
           <h2 className="text-[22px] font-semibold text-[var(--ffc-earth)] pt-2">
             Third-party links
