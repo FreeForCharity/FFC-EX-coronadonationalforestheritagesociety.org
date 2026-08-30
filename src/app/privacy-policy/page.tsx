@@ -44,10 +44,13 @@ export default function PrivacyPolicy() {
           <ul className="list-disc pl-6 space-y-2">
             <li>
               If you visit from the European Economic Area, the United Kingdom, or Switzerland,
-              Google&apos;s tags set <strong>no cookies and read no identifiers</strong>. Your visit
-              is counted only in an aggregate, cookieless way that cannot be tied back to you or to
-              your next visit. This site currently offers no way to opt in to analytics cookies, so
-              visitors from these regions always remain in that cookieless state.
+              Google&apos;s tags set{' '}
+              <strong>no analytics or advertising cookies and read no such identifiers</strong>{' '}
+              (storage strictly necessary for security or basic site function may still be used).
+              Your visit is counted only in an aggregate way, without analytics cookies or
+              identifiers that could tie it back to you or to your next visit. This site currently
+              offers no way to opt in to analytics cookies, so visitors from these regions always
+              remain in that state.
             </li>
             <li>
               Everywhere else, including the United States, Google Analytics cookies are set from
@@ -75,10 +78,11 @@ export default function PrivacyPolicy() {
             visit, you have the right to: access the personal data we hold about you; have
             inaccurate data rectified; have your data erased; restrict or object to processing;
             receive your data in a portable format; and withdraw any consent you have given at any
-            time. Because Google&apos;s tags run cookie-free for visitors in these regions, we hold
-            no analytics identifiers about you. You may also lodge a complaint with your national
-            data protection supervisory authority (in the UK, the Information Commissioner&apos;s
-            Office). To exercise any of these rights, contact us using the details below.
+            time. Because Google&apos;s tags run without analytics cookies or identifiers for
+            visitors in these regions, we hold no analytics identifiers about you. You may also
+            lodge a complaint with your national data protection supervisory authority (in the UK,
+            the Information Commissioner&apos;s Office). To exercise any of these rights, contact us
+            using the details below.
           </p>
           <h2 className="text-[22px] font-semibold text-[var(--ffc-earth)] pt-2">
             Your California privacy rights (CCPA/CPRA)
