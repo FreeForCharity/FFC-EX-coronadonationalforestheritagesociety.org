@@ -51,8 +51,8 @@ export default function PrivacyPolicy() {
               identifiers that could tie it back to you or to your next visit. This site currently
               offers no way to opt in to analytics cookies, so visitors from these regions always
               remain in that state. (Switzerland is included because Google&apos;s consent defaults
-              cover it; Swiss visitors&apos; data is protected by the Swiss FADP rather than the
-              GDPR.)
+              cover it; Swiss visitors&apos; data is protected by Switzerland&apos;s Federal Act on
+              Data Protection (FADP) rather than the GDPR.)
             </li>
             <li>
               Everywhere else, including the United States, Google Analytics cookies are set from
