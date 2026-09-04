@@ -54,10 +54,13 @@ export default function PrivacyPolicy() {
             </li>
             <li>
               This site currently offers no way to opt in to analytics cookies, so{' '}
-              <strong>every visitor stays in that cookie-free state permanently</strong> — not just
-              until a choice is made. If a consent banner is added later, this page will be updated
-              to say so. You can also block or delete cookies through your browser settings, or use
-              the{' '}
+              <strong>
+                every visitor stays free of analytics and advertising cookies permanently
+              </strong>{' '}
+              — not just until a choice is made. (Storage strictly necessary for security or basic
+              site function, as noted above, is unaffected.) If a consent banner is added later,
+              this page will be updated to say so. You can also block or delete cookies through your
+              browser settings, or use the{' '}
               <a
                 href="https://tools.google.com/dlpage/gaoptout"
                 className="text-[var(--ffc-primary)] underline underline-offset-4 hover:text-[var(--ffc-earth)]"
