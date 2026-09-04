@@ -38,26 +38,26 @@ export default function PrivacyPolicy() {
           </h2>
           <p>
             This site uses Google Tag Manager and Google Analytics 4 to understand, in aggregate,
-            how the site is used. These tools run under Google Consent Mode v2 with regional
-            defaults:
+            how the site is used. These tools run under Google Consent Mode v2, and one rule applies
+            to every visitor:
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>
-              If you visit from the European Economic Area, the United Kingdom, or Switzerland,
-              Google&apos;s tags set{' '}
-              <strong>no analytics or advertising cookies and read no such identifiers</strong>{' '}
+              Wherever in the world you are, Google&apos;s tags set{' '}
+              <strong>
+                no analytics or advertising cookies and read no identifiers from your device
+              </strong>{' '}
               (storage strictly necessary for security or basic site function may still be used).
               Your visit is counted only in an aggregate way, without analytics cookies or
-              identifiers that could tie it back to you or to your next visit. This site currently
-              offers no way to opt in to analytics cookies, so visitors from these regions always
-              remain in that state. (Switzerland is included because Google&apos;s consent defaults
-              cover it; the data of visitors in Switzerland is protected by Switzerland&apos;s
-              Federal Act on Data Protection (FADP) rather than the GDPR.)
+              identifiers that could tie it back to you or to your next visit. There is no country
+              in which analytics cookies are set before you agree.
             </li>
             <li>
-              Everywhere else, including the United States, Google Analytics cookies are set from
-              your first pageview. This site does not yet provide an on-page control to change that;
-              you can block or delete these cookies through your browser settings, or use the{' '}
+              This site currently offers no way to opt in to analytics cookies, so{' '}
+              <strong>every visitor stays in that cookie-free state permanently</strong> — not just
+              until a choice is made. If a consent banner is added later, this page will be updated
+              to say so. You can also block or delete cookies through your browser settings, or use
+              the{' '}
               <a
                 href="https://tools.google.com/dlpage/gaoptout"
                 className="text-[var(--ffc-primary)] underline underline-offset-4 hover:text-[var(--ffc-earth)]"
@@ -68,9 +68,12 @@ export default function PrivacyPolicy() {
             </li>
           </ul>
           <p>
-            Which of these rules applies to your visit is determined by Google from your IP address
-            at the time of your visit; IP geolocation is approximate. We do not use session
-            recording tools or advertising pixels on this site.
+            Nothing here depends on where you are, so nothing depends on Google guessing your
+            location. Visitors in Switzerland are protected by Switzerland&apos;s Federal Act on
+            Data Protection (FADP) rather than the GDPR; the treatment described above is the same
+            either way. As with any web request, network-level data such as your IP address still
+            reaches the servers involved, and this behavior depends on JavaScript being enabled in
+            your browser. We do not use session recording tools or advertising pixels on this site.
           </p>
           <h2 className="text-[22px] font-semibold text-[var(--ffc-earth)] pt-2">
             Your rights in the EU, UK, and EEA (GDPR)
