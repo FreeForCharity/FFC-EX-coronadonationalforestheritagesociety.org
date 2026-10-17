@@ -3,6 +3,7 @@ import './globals.css'
 import Header from './../components/header'
 import Footer from './../components/footer'
 import GoogleTagManager, { GoogleTagManagerNoScript } from './../components/google-tag-manager'
+import CookieConsent from '@/components/cookie-consent'
 import {
   openSans,
   lato,
@@ -128,6 +129,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <CookieConsent />
       </body>
     </html>
   )
